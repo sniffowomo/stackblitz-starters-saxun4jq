@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Geo:ital@0;1&family=Orbitron:wght@400..900&display=swap");
+
+.flex-container {
+  display: flex;
+  background-color: black;
+  font-family: "Orbitron";
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 2rem;
+
+  background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXdmYnIxazJ0bzAxdmI0MmVheG41eWJ3ZWhuNXBkbHg3d3JjOXhxYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xTiTnxpQ3ghPiB2Hp6/giphy.gif"); /* Replace with your GIF path */
+  background-size: cover; /* or contain, or specific dimensions */
+  background-repeat: no-repeat; /* Prevents tiling */
+  /* Optional: Add a background color fallback in case the GIF doesn't load */
+  background-color: #000; /* Example black fallback */
+}
